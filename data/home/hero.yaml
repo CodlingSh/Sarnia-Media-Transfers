@@ -1,0 +1,13 @@
+enable: true
+
+title: "Technology Made **Simple**, **Safe**, and **Stress-Free**"
+text: "We offer patient, one-on-one support that builds confidence, strengthens digital skills, and empowers every age to stay safe online."
+
+buttons:
+  - label: "How we work"
+    link: "#"
+
+  - label: "Book Appointment"
+    link: ""
+
+image: "images/logo.png"

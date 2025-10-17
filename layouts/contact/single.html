@@ -1,0 +1,68 @@
+{{ define "main" }}
+  <section class="py-16">
+    <div class="container mx-auto px-4">
+      {{ with .Title }}
+        <h2 class="text-primary mb-16 text-center text-6xl font-bold">{{ . }}</h2>
+      {{ end }}
+      <div class="flex flex-col xl:flex-row">
+        {{ with .Content }}
+          <div class="max-w-[30rem] mb-4 mx-auto">
+            {{ . }}
+        {{ end }}
+            {{ with .Site.Params.social }}
+              <ul class="flex gap-4 mt-4 w-full justify-center">
+                {{ with .dribbble }}
+                  <li class="bg-primary/10 text-primary flex size-16 items-center justify-center rounded-full">
+                    <a class="" href="{{ . }}" aria-label="Dribble">{{ partial "icons/dribbble.html" }}</a>
+                  </li>
+                {{ end }}
+                {{ with .instagram }}
+                  <li class="bg-primary/10 text-primary flex size-16 items-center justify-center rounded-full">
+                    <a class="" href="{{ . }}" aria-label="Instagram">{{ partial "icons/instagram.html" }}</a>
+                  </li>
+                {{ end }}
+                {{ with .facebook }}
+                  <li class="bg-primary/10 text-primary flex size-16 items-center justify-center rounded-full">
+                    <a class="" href="{{ . }}" aria-label="Facebook">{{ partial "icons/facebook.html" }}</a>
+                  </li>
+                {{ end }}
+                {{ with .twitter }}
+                  <li class="bg-primary/10 text-primary flex size-16 items-center justify-center rounded-full">
+                    <a class="" href="{{ . }}" aria-label="Twitter">{{ partial "icons/twitter.html" }}</a>
+                  </li>
+                {{ end }}
+              </ul>
+            {{ end }}
+          </div>
+        <form class="bg-tertiary flex flex-wrap justify-between mx-auto rounded-2xl p-8 xl:max-w-[50%]">
+          <div class="flex flex-col mb-4 w-full lg:w-[48%]">
+              <label class="mb-1 pl-4" for="fName"><strong>First Name</strong></label>
+              <input class="bg-white px-4 py-2 rounded-2xl" type="text" id="fName" name="fName" placeholder="John">
+          </div>
+          <div class="flex flex-col mb-4 w-full lg:w-[48%]">
+              <label class="mb-1 pl-4" for="lName"><strong>Last Name</strong></label>
+              <input class="bg-white px-4 py-2 rounded-2xl" type="text" id="lName" name="lName" placeholder="Doe">
+          </div>
+          <div class="flex flex-col mb-4 w-full lg:w-[48%]">
+              <label class="mb-1 pl-4" for="email"><strong>Email Address</strong></label>
+              <input class="bg-white px-4 py-2 rounded-2xl" type="text" id="email" name="email" placeholder="johndoe@gmail.com">
+          </div>
+          <div class="flex flex-col mb-4 w-full lg:w-[48%]">
+              <label class="mb-1 pl-4" for="phone"><strong>Phone Number</strong></label>
+              <input class="bg-white px-4 py-2 rounded-2xl" type="tel" pattern="^[0-9+\-\s()]{7,20}$" id="phone" name="phone" placeholder="(519) 123-4567" title="Enter a valid phone number">
+          </div>
+          <div class="flex flex-col mb-4 w-full">
+              <label class="mb-1 pl-4" for="anythingElse"><strong>Message</strong></label>
+              <textarea class="bg-white px-4 py-2 rounded-2xl resize-none" id="anythingElse" name="anythingElse" rows="6"></textarea>
+          </div>
+          <a class="border-primary text-primary hover:bg-primary flex items-center gap-2 rounded border px-8 py-2 duration-500 hover:text-white" href="{{ .Permalink }}">
+            Send
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+            </svg>
+          </a>
+      </form>
+    </div>
+    </div>
+  </section>
+{{ end }}

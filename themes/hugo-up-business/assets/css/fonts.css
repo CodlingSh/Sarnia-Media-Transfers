@@ -1,0 +1,19 @@
+{{ with resources.Get "fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf" }}
+@font-face {
+  font-family: 'NunitoSans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url({{ .Permalink }}) format('woff2');
+}  
+{{ end }}
+
+{{ with resources.Get "fonts/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf" }}
+@font-face {
+  font-family: 'NunitoSans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url({{ .Permalink }}) format('woff2');
+}  
+{{ end }}
