@@ -54,7 +54,7 @@ export async function handler(event) {
         const cxHTML = `
         <p>Hi ${fullName},</p>
 
-        <p>Thank you for booking with Tech Care Connect! We've received your request and will follow up soon to confirm your appointment time.</p>
+        <p>Thank you for booking with Sarnia Media Transfers! We've received your request and will follow up soon to confirm your appointment time.</p>
 
         <p><b>Your details:</b><br>
         Name: ${fullName}<br>
@@ -70,7 +70,7 @@ export async function handler(event) {
 
         <p>If anything changes, you can reply to this email and we'll adjust your booking.</p>
 
-        <p>- Tech Care Connect</p>
+        <p>- Sarnia Media Transfers</p>
         `;
 
         console.log("event session.metadata:", JSON.stringify(session.metadata));

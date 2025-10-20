@@ -1,5 +1,5 @@
 # baseURL: "https://techcareconnect.netlify.app/"
-title: "Tech Care Connect"
+title: "Sarnia Media Transfers"
 summaryLength: 20
 theme: "hugo-up-business"
 languageCode: "en-us"
@@ -21,7 +21,7 @@ taxonomies:
 
 params:
   colors:
-    bg: "#FAF3E7"
-    primary: "#2C3E50"
-    secondary: "#007C91"
-    tertiary: "#BFE0C6"
+    bg: "#F5F7FA"
+    primary: "#1F6FAF"
+    secondary: "#4B6375"
+    tertiary: "#F1D2B6"

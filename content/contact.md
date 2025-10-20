@@ -1,5 +1,5 @@
 ---
-title: "Connect With Us"
+title: "Contact Us"
 type: "contact"
 ---
 
