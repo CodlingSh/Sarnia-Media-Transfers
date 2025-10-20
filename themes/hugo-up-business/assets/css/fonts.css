@@ -1,19 +1,39 @@
-{{ with resources.Get "fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf" }}
+{{ with resources.Get "fonts/FiraSans-regular.ttf" }}
 @font-face {
-  font-family: 'NunitoSans';
+  font-family: 'firaSans';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url({{ .Permalink }}) format('woff2');
+  src: url({{ .Permalink }}) format('truetype');
 }  
 {{ end }}
 
-{{ with resources.Get "fonts/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf" }}
+{{ with resources.Get "fonts/FiraSans-italic.ttf" }}
 @font-face {
-  font-family: 'NunitoSans';
+  font-family: 'firaSans';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url({{ .Permalink }}) format('woff2');
+  src: url({{ .Permalink }}) format('truetype');
+}  
+{{ end }}
+
+{{ with resources.Get "fonts/FiraSans-Bold.ttf" }}
+@font-face {
+  font-family: 'firaSans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url({{ .Permalink }}) format('truetype');
+}  
+{{ end }}
+
+{{ with resources.Get "fonts/FiraSans-BoldItalic.ttf" }}
+@font-face {
+  font-family: 'firaSans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url({{ .Permalink }}) format('truetype');
 }  
 {{ end }}
