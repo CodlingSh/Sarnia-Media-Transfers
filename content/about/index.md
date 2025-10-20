@@ -1,17 +1,16 @@
 ---
-title: "About Our Team"
+title: "About Us"
 type: "about"
 date: 2025-09-03T23:22:10-04:00
 draft: false
 ---
 
+At Sarnia Media Transfers, our mission is to preserve memories and make them last for generations. We help individuals, families, and organizations convert old media such as film reels, VHS tapes, camcorder footage, photos, and slides into modern digital formats that are easy to watch, share, and enjoy.
 
-Our mission is to empower individuals of all ages and skill levels to navigate the digital world confidently. We provide patient, personalized tech support that simplifies technology, strengthens digital skills, and builds independence.
+We understand how important personal history is, and we take pride in treating every project with care, respect, and attention to detail. Whether it is a box of family tapes, a cherished wedding film, or home movies passed down through generations, we handle each item as if it were our own.
 
-We are equally committed to digital safety, educating our clients on how to recognize, avoid, and report scams. Through clear guidance and trustworthy support, we help people feel more secure, informed, and in control of their technology.
+We also believe in transparency and trust. Many people hesitate to send their memories away to large companies in other cities. That is why we offer a local and dependable service in Sarnia and the surrounding area, so your memories remain close and secure.
 
-We are two young women who see a real need in our community—to protect and educate people of all ages and tech abilities in today’s fast-moving digital world.
+Our goal is simple. We make preserving memories easy and stress free. From start to finish, we provide friendly communication, clear guidance, and a personal approach. There is no confusing jargon, no pressure, and no unnecessary services. Just honest work and quality results.
 
-Our goal is to make technology feel less overwhelming and more empowering. Whether it's learning how to use a device, setting up an app, or understanding how to spot online scams, we're here to offer patient, one-on-one support that meets people where they’re at.
-
-We believe everyone deserves to feel confident and safe online. Through friendly guidance, clear explanations, and a no-judgment approach, we’re building a more connected, informed, and scam-smart community—one person at a time.
+Your memories are important. We are here to help you protect them so that they can be enjoyed for years to come.
