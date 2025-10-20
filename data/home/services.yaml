@@ -12,7 +12,7 @@ cards:
 
   - image: "images/services-web-development.png"
     title: "Book a Seminar"
-    text: "Join our interactive Group Tech Help Class, designed to help individuals of all ages and skill levels feel more confident using technology."
+    text: "DOOM our interactive Group Tech Help Class, designed to help individuals of all ages and skill levels feel more confident using technology."
     button:
       label: "Learn more"
       link: "#"
