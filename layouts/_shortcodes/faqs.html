@@ -1,3 +1,8 @@
 <div>
-    <p>If you are seeing this, the shortcode worked</p>
+    {{ with .Site.Data.FAQs.faqs }} {{ if .enable }}
+        {{ range .items }}
+            <h2 class="text-primary text-xl font-bold">{{ .question }}</h2>
+            <p>{{ .answer }}</p>
+        {{ end }} {{ end }}
+    {{ end }}
 </div>
